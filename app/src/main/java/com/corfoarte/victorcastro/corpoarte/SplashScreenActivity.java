@@ -15,7 +15,8 @@ public class SplashScreenActivity extends AppCompatActivity {
 
         Thread timerTread = new Thread() {
             public void run() {
-                try {//ahora ahora el merge desde DEV
+                try {//ahora  el merge desde DEV A DESARROLLO
+                    //FUCK! APRENDiendo git en android studio
 
                     sleep(1750);
                 } catch (InterruptedException e) {
