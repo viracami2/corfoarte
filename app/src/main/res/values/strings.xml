@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">CorfoArte</string>
+
+    <!-- Strings related to login -->
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">El campo es requerido</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">En Construccion</string>
+    <string name="title_activity_group_bagpipes">Grupos De Gaita</string>
+    <string name="title_activity_grupo">GrupoActivity</string>
+
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string name="title_activity_noticias">NoticiasActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+</resources>

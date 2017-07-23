@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    android:orientation="vertical"
+    tools:context="com.corfoarte.victorcastro.corpoarte.InscripcionesActivity">
+
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/gt"
+        android:id="@+id/imageView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginStart="44dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="141dp"
+        android:layout_height="160dp"
+        app:srcCompat="@drawable/ima1"
+        android:layout_marginLeft="220dp"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="27dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="Noticias"
+            android:theme="@style/RaisedButton"
+            android:id="@+id/Home"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp" />
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/Inscripciones"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="Inscripciones "
+            android:theme="@style/RaisedButton" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Festival Autoctono De Gaitas"
+        android:textSize="@dimen/tamTitulo"
+        android:textColor="@color/colorWhite"
+        tools:text="Festival Autoctomo De Gaitas  "
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView2"
+        android:layout_marginEnd="19dp" />
+
+
+</RelativeLayout>
