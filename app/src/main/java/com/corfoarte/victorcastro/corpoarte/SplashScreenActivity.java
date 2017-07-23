@@ -16,7 +16,8 @@ public class SplashScreenActivity extends AppCompatActivity {
         Thread timerTread = new Thread() {
             public void run() {
                 try {
-                    sleep(1750);
+                    //branch produccion
+                    sleep(1650);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 } finally {
