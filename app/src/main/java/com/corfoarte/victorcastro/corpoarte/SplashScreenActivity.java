@@ -15,7 +15,7 @@ public class SplashScreenActivity extends AppCompatActivity {
 
         Thread timerTread = new Thread() {
             public void run() {
-                try {//desarrollo
+                try {//ahora ahora el merge desde DEV
 
                     sleep(1750);
                 } catch (InterruptedException e) {
