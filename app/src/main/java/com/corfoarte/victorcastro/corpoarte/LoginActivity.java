@@ -35,7 +35,7 @@ public class LoginActivity extends AppCompatActivity {
     @OnClick(R.id.Home)
     public void sayHis(Button button) {
         //button.setText("Hello!");
-        Intent intent = new Intent(getApplicationContext(), NoticiasActivity.class);
+        Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
         startActivity(intent);
     }
 }

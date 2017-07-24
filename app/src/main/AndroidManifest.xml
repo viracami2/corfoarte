@@ -4,7 +4,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
-    <!-- To auto-complete the email text field in the login form with the user's emails -->
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/gt"
@@ -34,9 +34,7 @@
         <activity android:name=".InscripcionesActivity" />
         <activity
             android:name=".NoticiasActivity"
-            android:label="@string/title_activity_noticias"
-            android:theme="@style/AppTheme.NoActionBar" />
-
+            android:label="@string/title_activity_noticias" />
         <activity
             android:name=".SplashScreenActivity"
             android:theme="@style/AppTheme.NoActionBar">
@@ -45,6 +43,11 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
         </activity>
     </application>
 
