@@ -21,7 +21,7 @@ public class LoginActivity extends AppCompatActivity {
         mediaPlayer = MediaPlayer.create(this, R.raw.musi);
         mediaPlayer.setVolume(30, 10);
         mediaPlayer.start();
-
+        // de dev a producion
     }
 
     @OnClick(R.id.Inscripciones)
